@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+#paintDiv{
+    width: 1300px;
+    height: 500px;
+    margin: 10px auto;
+    background-color: white;  /*antiquewhite*/
+    cursor: url(man.png),auto;
+}
+p{
+    font-size: medium;
+}
+td{
+    width: 5px; 
+    height: 5px; 
+    margin: 0px; 
+    padding: 0px; 
+    background-color:white;
+}
+    

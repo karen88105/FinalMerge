@@ -1,0 +1,21 @@
+h2{
+    font-weight: bold;
+}
+
+#all{
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgb(249, 250, 215);
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+canvas{
+    border: 2px solid black;
+    background-image: url(../img/grasses68.gif);
+}
+table{
+    background-color: white;
+}
+tr, td{
+    border:1px solid black;
+    padding: 2px;
+}
+h2{
+    font-weight: bold;
+}
+
+article {
+    flex: 2;
+    background-color: rgb(249, 250, 215);
+    padding: 10px;
+}
+aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: linen;
+    padding: 100px 5px;
+    text-align: center;
+}
+#all{
+    display: flex;
+}
+
+#talkBox, #options{
+    height: 20px;
+    color: brown;
+    font-size: 23px;
+    font-weight: bold;
+}
+#options{
+    margin: 50px 0px;
+}
+
+#tool{
+    text-align: center;
+    margin: 5px 0px;
+    padding: 10px;
+}
+#toolsTable{
+    margin: 0px auto;
+    font-size: 20px;
+    font-weight: bold;
+}

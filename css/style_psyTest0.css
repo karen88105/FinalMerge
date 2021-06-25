@@ -1,0 +1,28 @@
+h1{
+    margin: 50px;
+    font-size: 50px;
+}
+
+#loveButton, #humanButton{
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 50px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;   
+    font-weight: bold;
+    color: #fff;
+    background-color: #81da84;
+    border: none;
+    border-radius: 15px;
+}
+#loveButton:hover, #humanButton:hover{
+    background-color: #5db660;
+    box-shadow: 5px 5px 5px dimgrey;
+}
+#loveButton:active, #humanButton:active{
+    position: relative;
+    right: -5px;
+    top: 5px;
+    box-shadow: 0px 0px 0px dimgrey;
+}

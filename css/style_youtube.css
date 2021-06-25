@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+}
+h2{
+    /* 預留歌曲名稱顯示空間 */
+    height: 32px;
+    font-size: large;
+}
+
+#MainDiv{
+    display: flex;
+}
+article {
+    flex: 3;
+    background-color: rgb(249, 250, 215);
+    padding: 10px;
+}
+aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: linen;
+    padding: 10px;
+    text-align: center;
+}
+
+#playButton, #nextButton, #submitButton ,#deleteButton{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;   
+    font-weight: bold;
+    color: #fff;
+    background-color: #81da84;
+    border: none;
+    border-radius: 15px;
+}
+#nextButton:hover, #submitButton:hover, #deleteButton:hover{
+    background-color: #5db660;
+    box-shadow: 5px 5px 5px dimgrey;
+}
+#playButton:active, #nextButton:active, #submitButton:active, #deleteButton:active{
+    position: relative;
+    right: -5px;
+    top: 5px;
+    box-shadow: 0px 0px 0px dimgrey;
+}
+#nextButton{
+    border-radius: 100px;
+}
+#playButton{
+    background-color: rgb(243, 117, 117);
+    border-radius: 100px;
+}
+#playButton:hover{
+    background-color: rgb(214, 67, 67);
+    box-shadow: 5px 5px 5px dimgrey;
+}
+
+#allNew{
+    width: 90%;
+    margin: 10px;
+}
+#ytitle, #yid, #ydelete{
+    font-size: 20px;
+    margin: 10px;
+}
+#songListDiv{
+    margin: 5px;
+    overflow-y: scroll;
+    background-color: white;
+    height: 170px;
+    padding: 0px 10px;
+    text-align: left;
+}
+
+#tv{
+    background-color: #424242;
+    margin: 0px 60px auto;
+    padding: 30px 0px 10px 0px;
+    border-radius: 50px;
+}
