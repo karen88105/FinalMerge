@@ -44,13 +44,9 @@ function onPlayerStateChange(event){
     }
 
     $("#nextButton").unbind('click').click(function(){
-        
+        currentPlay++;
         if(currentPlay >= playList.length)
             currentPlay = 0;
-        else{
-            currentPlay++;
-        }
-        
         player.loadVideoById({
             videoId:playList[currentPlay][0],
             suggestedQuality:"large"
