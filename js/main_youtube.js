@@ -45,7 +45,7 @@ function onPlayerStateChange(event){
 
     $("#nextButton").unbind('click').click(function(){
         currentPlay++;
-        if(currentPlay == playList.length)
+        if(currentPlay >= playList.length)
             currentPlay = 0;
         player.loadVideoById({
             videoId:playList[currentPlay][0],
